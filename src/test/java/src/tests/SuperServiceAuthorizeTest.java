@@ -15,7 +15,7 @@ import static src.core.ConfigParams.username_password;
 
 public class SuperServiceAuthorizeTest {
 
-    SuperService service = Environment.getService();
+    private SuperService service = Environment.getService();
 
     @ParameterizedTest
     @CsvSource({

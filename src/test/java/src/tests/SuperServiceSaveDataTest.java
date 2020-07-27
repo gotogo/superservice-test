@@ -18,8 +18,8 @@ import static src.core.ConfigParams.*;
 
 public class SuperServiceSaveDataTest {
 
-    static String token;
-    static SuperService service = Environment.getService();
+    private static String token;
+    private static SuperService service = Environment.getService();
 
     @BeforeAll
     public static void authorize() throws Exception {

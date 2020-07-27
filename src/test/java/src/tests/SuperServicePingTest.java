@@ -10,7 +10,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 public class SuperServicePingTest {
 
-    SuperService service = Environment.getService();
+    private SuperService service = Environment.getService();
 
     @Test
     @DisplayName("Пинг")
